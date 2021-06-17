@@ -1,1 +1,1 @@
-print("in asdf.__init__, __name__ is", __name__, "and __package__ is", __package__)
+print("in asdf.__init__, __name__ is", repr(__name__), "and __package__ is", repr(__package__))
